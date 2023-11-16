@@ -1,0 +1,50 @@
+program FibonacciSimple;
+var 
+  num: int;
+  n1, n2, n3: int;
+  cont: int;
+  coso: float;
+
+void funcionVacia (intNum: int, floatNum : float) [
+  var
+    numFunVacia: int;
+    contFunVacia: int;
+    coso2FunVacia: float;
+  {
+    
+  }
+];
+
+void funcionVacia2 () [
+  var jiji : float;
+  {
+    jiji = 0.34;
+    otravar = 0;
+  }
+];
+
+main {
+  num = 10;
+  cont = 0;
+  n1 = 0;
+  n2 = 1;
+  if (num < 1) {
+    print("Not a valid number");
+  } else {
+    if (num < 2) {
+      print("Fibonacci seq");
+      print(n1);
+    } else {
+      print("Fibonacci seq");
+      while {
+        print(n1);
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+        cont = cont + 1;
+      } do (cont < num);
+    };
+  };
+}
+
+end

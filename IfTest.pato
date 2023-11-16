@@ -1,0 +1,25 @@
+program ifTest;
+var
+  nada : int;
+
+
+main {
+  if(A){
+    A = 10;
+    B = A * C;
+  };
+  if (A + B > D) {
+    if (A < B) {
+      A = 0;
+      B = B + D;
+    }
+    else {
+      C = A + B;
+    };
+  } else {
+    A = B + C;
+  };
+  D = B + A * C;
+}
+
+end

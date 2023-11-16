@@ -1,0 +1,15 @@
+program cond;
+
+main {
+  if (num < 1) {
+    print("Not a valid number");
+  } else {
+    if (num < 2) {
+      print("good");
+    } else {
+      print("bad");
+    };
+  };
+}
+
+end
